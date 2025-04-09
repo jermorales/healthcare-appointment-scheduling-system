@@ -11,15 +11,19 @@
   },
   "author": "PBL Team IT",
   "license": "ISC",
+  "proxy": "http://localhost:5001",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.15",
-    "stripe": "^8.141.0",
-    "url": "^0.11.0",
-    "uuid": "^8.3.2"
+    "axios": "^0.21.1",
+    "jwt-decode": "^3.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-star-picker": "2.0.4",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^4.3.3",
